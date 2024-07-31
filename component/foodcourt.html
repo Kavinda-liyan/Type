@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Foodies</title>
+</head>
+<body>
+    <div class="foodContainer">
+        <h1>VIZA FOODIES</h1>
+        <div class="foodType">
+            <div class="foodLables"> 
+                <label>Pizza <span class="foodPrice"> RS 1350 </span> <span class="foodNo">1</span></label>
+                <label>| Burgher(Chicken) <span class="foodPrice"> RS 950 </span><span class="foodNo">2</span></label>
+                <label>| String Hoppers <span class="foodPrice"> RS 300 </span><span class="foodNo">3</span></label>
+                <label>| Club Sandwitch <span class="foodPrice"> RS 990 </span><span class="foodNo">4</span></label>
+                <div class="foodInput">
+                    <input type="number" id="foodInput">
+                </div>
+            </div>
+           
+        </div>
+        <hr/>
+
+        <div class="foodToppings">
+            <div class="foodLables"> 
+                <label class="HeaderTop">Pizza Toppings </label>
+                <label>Cheese(extra) <span class="foodPrice"> RS 100 </span><span class="foodNo">PT1</span></label>
+                <label>Pineapple <span class="foodPrice"> RS 100 </span><span class="foodNo">PT2</span></label>
+                <label>Olive <span class="foodPrice"> RS 250 </span><span class="foodNo">PT3</span></label>
+                <div class="foodInput">
+                    <input type="text" id="PT">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="foodToppings">
+            <div class="foodLables"> 
+                <label class="HeaderTop">Burgher Patty </label>
+                <label>Beef <span class="foodPrice"> RS 400 </span><span class="foodNo">BP1</span></label>
+                <label>Pork <span class="foodPrice"> RS 350 </span><span class="foodNo">BP2</span></label>
+                <div class="foodInput">
+                    <input type="text" id="BP">
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="foodToppings">
+            <div class="foodLables"> 
+                <label class="HeaderTop">Gravy(For String hopper) </label>
+                <label>Chicken <span class="foodPrice"> RS 150 </span><span class="foodNo">SH1</span></label>
+                <label>Kiri gravy <span class="foodPrice"> RS 100 </span><span class="foodNo">SH2</span></label>
+                <div class="foodInput">
+                    <input type="text" id="SH">
+                </div>
+            </div>
+            
+        </div>
+        <button id="orderFood">Order!</button>
+        <div class="orderbox">
+            <label id="orderItem"></label>
+            <lable id="orderDis"></lable>
+            <label id="orderTot"></label>
+        </div>
+
+    
+    </div>
+    <script src="foodcourt.js"></script>
+</body>
+</html>

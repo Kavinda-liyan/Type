@@ -1,0 +1,246 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    background-color: black;
+    color: antiquewhite;
+    text-align: center;
+}
+#header1{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 5rem;
+    color: antiquewhite;
+}
+.inputforTxt{
+    margin-left: auto;
+    margin-right: auto;
+    
+    margin-top: 2rem;
+    height: 30%;
+    width: 50%;
+    background-color: rgb(57, 57, 57);
+    padding: 2rem;
+    border-radius: 5px;
+}
+.areasCal{
+    display: flex;
+}
+#circles{
+
+    margin: auto 10px 10px ;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 100%;
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    box-shadow: unset;
+    border-color: unset;
+}
+
+#square{
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10rem;
+    height: 10rem;
+    background-color: red;
+    
+}
+.counterbuttons{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+.btnincdec{
+    margin: 0.5rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 100%;
+    font-size: 2rem;
+    background-color: aqua;
+    box-shadow: unset !important;
+    border: unset !important;
+    color: rgb(55, 55, 55);
+
+}
+.btnincdec:hover{
+cursor: pointer;
+background-color: aquamarine;
+}
+#reset{
+    background-color: red;
+    color: aliceblue;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: fit-content;
+    box-shadow: unset;
+    border-radius: 5px;
+    border: unset;
+}
+#reset:hover{
+    cursor: pointer;
+    background-color: rgb(255, 102, 102);
+}
+
+#countertxt{
+    font-size: 4rem;
+    margin: 1rem;
+}
+
+.mathproperties{
+    display: flex;
+}
+.math{
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(255, 122, 28);
+    border-radius: 5px;
+    width: 200px;;
+}
+.math input{
+    border: 1px solid rgb(255, 122, 28);
+    border-radius: 5px;
+    
+}
+.math label{
+    color: black;
+    font-size: 12px;
+    font-weight: 800;
+    width: 100%;
+}
+.math button{
+    border: rgb(193, 81, 0);
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px;
+}
+.math button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.approute{
+    width: fit-content;
+    height: 100%;
+    font-size: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: rgba(64, 179, 255, 0.638);
+    border-radius: 5px;
+
+}
+.approute a{
+    text-decoration: none;
+   font-weight: 700;
+   color: black;
+  
+}
+.approute:hover{
+    background-color: rgba(129, 205, 255, 0.638);
+    color: rgba(83, 186, 255, 0.638);
+}
+.pow{
+    justify-content: center;
+    display: flex;
+}
+.maininput{
+    display: flex;
+}
+.powinput input{
+    width: 50%;
+}
+.sqrtinput{
+    justify-content: center;
+    display: flex;
+}
+.sqrtinput input{
+    margin: 10;
+    height: 80%;
+    width: 50%;
+    font-size: 32px;
+}
+
+.foodContainer{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(./src/Foodiesbg.jpg);
+    height: 100%;
+    width: 90%;
+    border-radius: 5px;
+    backdrop-filter: blur(10px);
+
+}
+.foodContainer::before{
+    content: "";
+    position: absolute;
+    width : 100%;
+    height: 100%;
+    background: inherit;
+    z-index: -1;
+
+    filter        : blur(25px);
+    -moz-filter   : blur(25px);
+    -webkit-filter: blur(25px);
+    -o-filter     : blur(25px);
+    opacity: 0.10;
+
+}
+.foodType{
+    width: 100%;
+    
+}
+.foodLables{
+background-color: rgba(0, 0, 0, 0.608);
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+}
+.foodLables label{
+    margin: 5px;
+    padding: 5px;
+    font-size: 16px;
+}
+.foodLables label .foodNo{
+    background-color: rgb(255, 200, 0);
+    padding: 2px 5px 2px 5px;
+    border-radius: 2px;
+    box-shadow: black 1px 2px 15px;
+    color: black;
+}
+.foodInput input{
+    width: auto;
+    height: auto;
+    margin: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+.foodPrice{
+    font-size: 10px;
+}
+#orderFood{
+    margin: 5px;
+    height: 40px;
+    background-color:rgb(255, 200, 0) ;
+    font-size: 16px;
+    font-weight: 800;
+    border: unset;
+}
+#orderFood:hover{
+    background-color:rgb(255, 222, 101) ;
+    cursor: pointer;
+}
