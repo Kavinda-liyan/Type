@@ -15,8 +15,42 @@
         <div class="menu">
             <div class="pizzaSize">
                 <h3>Grab your pizzas!</h3>
-                
-               <h1>For Rs.1200.00 </h1>
+                <div class="smallcircle">
+                    <div class="sizeRadio">
+                        <div class="innerC1">
+                            <input type="radio" name="size" id="smallP">
+                            
+                        </div>
+                        <div class="pizzaDis">
+                            <label for="smallP">Small</label>
+                            <label for="smallP"> Rs.1200</label>
+                        </div>
+                    </div>
+                    <div class="sizeRadio">
+                        <div class="innerC2">
+                            <input type="radio" name="size" id="mediumP">
+                            
+                        </div>
+                        <div class="pizzaDis">
+                            <label for="mediumP">Medium</label>
+                            <label for="mediumP"> Rs.1650</label>
+                        </div>
+                      
+                    </div>
+                    <div class="sizeRadio">
+                        <div class="innerC3">
+                            <input type="radio" name="size" id="largeP">
+                            
+                        </div>
+                        <div class="pizzaDis">
+                            <label for="largeP">Large</label>
+                            <label for="largeP"> Rs.2100</label>
+                        </div>
+                    </div>
+
+            
+                </div>
+                <label id="errorChoice"></label>
                
             </div>
             
@@ -30,23 +64,26 @@
                     </div>
                     <div class="checkContainer">
                         <input type="checkbox" id="checkOlive">
-                        <label for="checkCheese">Olive Slice | Rs.250</label>
+                        <label for="checkOlive">Olive Slice | Rs.250</label>
                     </div>
                     <div class="checkContainer">
                         <input type="checkbox" id="checkPeporoni">
-                        <label for="checkCheese">Peporoni | Rs.250</label>
+                        <label for="checkPeporoni">Peporoni | Rs.250</label>
                     </div>
                     <div class="checkContainer">
                         <input type="checkbox" id="checkMeat">
-                        <label for="checkCheese">All Meat | Rs.450</label>
+                        <label for="checkMeat">All Meat | Rs.450 <span class="star">*</span></label>
                     </div>
                     <div class="checkContainer">
                         <input type="checkbox" id="checkBpork">
-                        <label for="checkCheese">Sri Lankan Black pork | Rs.600</label>
+                        <label for="checkBpork">Sri Lankan Black pork | Rs.600 <span class="star">*</span> </label>
                     </div>
+                    
                 </div>
+                <div><p>(<span class="star">*</span>) Signature Pizzas cannot add Toppings</p></div>
             </div>
             <div class="pizzaSize">
+                <hr>
                 <h4>Quantity</h4>
                 <label id="emptyFill1"></label>
                 <div class="Quantitrybtn">
@@ -62,10 +99,17 @@
                 
                 <button id="SubmitOrderBtn">Checkout</button>
 
-                <div><label id="emptyFill2"></label>
-                <label id="VitoDescription"></label>
-                <label id="Vitoquantity"></label>
-                <label id="VitoPrice"></label>
+                <div class="lableDiv">
+                    
+                   
+                    <div class="successMsg">
+                        <label id="emptyFill2"></label>
+                        <label id="orderNo"></label>
+                        <label id="VitoDescription"></label>
+                        <label id="Vitoquantity"></label>
+                        <label id="VitoPrice"></label>
+                    </div>
+                
             </div>
                 
             </div>
