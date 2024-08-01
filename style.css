@@ -1,3 +1,6 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1em;
@@ -243,4 +246,171 @@ background-color: rgba(0, 0, 0, 0.608);
 #orderFood:hover{
     background-color:rgb(255, 222, 101) ;
     cursor: pointer;
+}
+.container{
+    justify-content: center;
+    align-items: center;
+    padding: 5rem;
+}
+.vitoBanner{
+    background-image: url(./src/Vitopizza.jpg);
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+
+   
+}
+.vitoBanner h1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 10rem;
+    margin-bottom: 2px;
+    color:#fff3ed ;
+    text-shadow: #242424 5px 5px 10px;
+}
+.vitoBanner h5{
+font-family:"Playwrite CL", cursive ;
+font-size: 3rem;
+margin: 0px;
+text-shadow: rgb(33, 207, 255) 2px 3px 5px;
+text-shadow: rgb(32, 32, 32) 2px 3px 5px;
+color: #fff3ed;
+}
+.pizzaSize{
+    margin-top: 0px;
+    background-color: #ffffff;
+    color: #242424;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 3px;
+}
+.pizzaSize h3{
+    font-size: 32px;
+    padding: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+.sizeRadio{
+    display: flex;
+    justify-content: center;
+}
+.innerC1{
+    background-color: red;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+.innerC2{
+    background-color: red;
+    width: 100px;
+    height:100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+.innerC3{
+    background-color: red;
+    width: 120px;
+    height:120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    
+}
+.smallcircle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.toppingSelect{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.checkContainer{
+    margin: 10px;
+    padding: 10px;
+}
+.Quantitrybtn{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Quantitrybtn button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: unset;
+    background-color: red;
+    font-size: 32px;
+    height: 35px;
+    width: 35px;
+    margin: 0;
+    color: #fff3ed;
+}
+.Quantitrybtn input{
+    height: 30px ;
+    width: 40px;
+    border:1px solid red;
+    font-size: 16px;
+}
+.Quantitrybtn button:hover{
+    background-color: rgb(255, 116, 116);
+    cursor: pointer;
+}
+#increBtn{
+    border-radius: 0px 5px 5px 0px;
+}
+#decreBtn{
+    border-radius: 5px 0px 0px 5px;
+}
+
+#SubmitOrderBtn{
+    color: #fff3ed;
+    margin: 10px;
+    padding: 10px;
+    font-size: 24px;
+    background-color: red;
+    border: unset;
+    box-shadow: #2424247a 1px 1px 5px;
+    border-radius: 5px;
+}
+#SubmitOrderBtn:hover{
+    background-color: rgb(255, 116, 116);
+    cursor: pointer;
+}
+.pizzaSize{
+    padding: 10px;
+}
+
+.pizzaSize h1{
+
+    font-size: 5rem;
+    margin: 0;
+    color: red;
+}
+
+.checkContainer input{
+transform: scale(2);
+background: red;
+}
+.checkContainer input:hover{
+    color: red;
+    cursor: pointer;
+    border: 2px solid red;
 }
