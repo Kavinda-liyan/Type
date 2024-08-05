@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>StringSlice</title>
+</head>
+<body>
+    <div class="container">
+        <h1>String Slicer</h1>
+
+        <div class="slicer">
+            <input type="text" id="inputslicer" placeholder="Input Text want to slice">
+            <div class="length"> 
+                <label for="fromslice">from:</label>
+                <input id="fromslice" type="number">
+                <label for="toslice">to:</label>
+                <input id="toslice" type="number">
+                
+            </div>
+            <button id="sliceSubmit">Submit</button>
+            <div class="msgSlice">
+                <label id="DisplaySlice"></label>
+                <label id="DisplaySliceError"></label>
+            </div>
+            
+        </div>
+    </div>
+    <script src="slicer.js"></script>
+</body>
+</html>

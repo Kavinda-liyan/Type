@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CL:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+CL:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Platypi:ital,wght@0,300..800;1,300..800&family=Playwrite+CL:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 1em;
@@ -458,5 +460,112 @@ color: green;
 }
 .pizzaDis:hover{
     color: #696969;
+    cursor: pointer;
+}
+.container1{
+padding: 10rem;
+
+}
+.avatarContainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5rem;
+background-color: #d6d6d6;
+    width: 50%;
+    height: 100%;
+    color: #242424;
+    border-radius:5px ;
+    box-shadow: #ff0000 -1px 1px 50px;
+}
+.avatarContainer input{
+    border: 1px solid red;
+    padding: 5px;
+    color: red;
+    margin: 5px;
+    border-radius: 5px;
+    
+}
+
+#AvatarBtn{
+    height: 100px;
+    width: 100px;
+    margin: 2rem;
+    border-radius: 100%;
+    border: unset;
+    font-size: 16px;
+    font-weight: 900;
+    box-shadow: #24242478 1px 0.5px 25px;
+    background-color: #ff3535;
+    color: #cfcfcf;
+}
+#AvatarBtn:hover{
+    box-shadow: #323232 1px 0.5px 25px;
+    background-color: #ff0000;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.outputAvatar h1{
+    font-size: 48px;
+    font-family: "Platypi", serif;
+    margin: 1.5rem;
+    
+}
+
+.outputAvatar{
+   
+    margin-left: auto;
+    margin-right: auto;
+   
+    width: fit-content;
+    height: fit-content;
+    background-color: #00c3ff;
+    border-radius: 5px;
+    color: #fff3ed;
+    box-shadow: inset white 1px 2px 10px;
+    box-shadow: #b9b9b9 1px 1px 10px;
+}
+
+#avatarName{
+    font-size: 20px;
+    margin: 0.8rem;
+    
+}
+.slicer{
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #92ffeb;
+    width: 50%;
+    padding: 2.5rem;
+    border-radius: 5px;
+    color: #004b62;
+}
+#inputslicer{
+    margin: 1rem;
+    padding: 1rem;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 2px solid #00c3ff;
+}
+.length{
+margin: 1rem;
+}
+.length input{
+    width: 80px;
+    border-radius: 5px;
+    border: 2px solid #00c3ff;
+
+}
+#sliceSubmit{
+    border-radius: 5px;
+    border: 2px solid #00c3ff;
+    font-size: 16px;
+    padding: 0.5rem;
+    color: #00c3ff;
+    background-color: #ffffff;
+    font-weight: 900;
+}
+#sliceSubmit:hover{
+    background-color: #e3e3e3;
     cursor: pointer;
 }

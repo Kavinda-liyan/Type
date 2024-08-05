@@ -152,3 +152,45 @@ console.log(Answer);
 
     document.getElementById("randomOutput").textContent=Answer;
 }
+
+document.getElementById("TrandomBtn").onclick=function(){
+    let Answer=Math.random();
+console.log(Answer);
+    Answer=Answer*100;
+    Answer=Math.round(Answer);
+    document.getElementById("terneryRandom").textContent=Answer;
+
+    let binoryornon;
+    binoryornon = ( Answer%2)==0 ? document.getElementById("ifRandom").textContent="Even Number!":document.getElementById("ifRandom").textContent="Odd Number!";
+}
+
+document.getElementById("ResultBtn").onclick=function(){
+    let result=document.getElementById("result").value;
+    result=Number(result);
+
+    switch(true){
+        case (result>=90):
+            console.log(result);
+            document.getElementById("ResultOutput").textContent=`Your Result is ${result} and Grade is "A"`;
+            break;
+
+            case (result>=65):
+                console.log(result);
+                document.getElementById("ResultOutput").textContent=`Your Result is ${result} and Grade is "B"`;
+                break;
+
+                case (result>=50):
+                    console.log(result);
+                    document.getElementById("ResultOutput").textContent=`Your Result is ${result} and Grade is "C"`;
+                    break;
+
+
+                    case (result>=35):
+                    console.log(result);
+                    document.getElementById("ResultOutput").textContent=`Your Result is ${result} and Grade is "S"`;
+                    break;
+
+                    default:
+                        document.getElementById("ResultOutput").textContent=`Your Result is ${result} and Grade is "F"`;
+    }
+}
