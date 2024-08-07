@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>NumberGuessing</title>
+</head>
+<body id="numberguess">
+<div class="container">
+    <div class="guessBox">
+<h1 id="winner">Guess The Number</h1>
+<div class="MsgWinner">
+    <p id="WinnerText"></p>
+    <p id="TryAgain"></p>
+</div>
+
+<div class="guessoutCon"><h1 id="GuessOutput">?</h1></div>
+<div class="guessoutConTrue"><h1 id="GuessOutputTrue"></h1></div>
+
+
+
+<input type="number" id="guessinput" placeholder="" onfocus="this.value=''">
+<p id="limitationError"></p>
+<p>Place the number between 1 to 10</p>
+
+<br>
+<button id="guessBtn"><span id="buttonName">Play</span></button>
+
+<h1 id="tryGuess"></h1>
+    
+    </div>
+    
+</div>
+    
+<script src="guess.js"></script>
+</body>
+</html>

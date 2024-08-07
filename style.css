@@ -569,3 +569,83 @@ margin: 1rem;
     background-color: #e3e3e3;
     cursor: pointer;
 }
+#numberguess{
+    background-color: #aaebff ;
+}
+.guessBox{
+    width: 60%;
+    min-height: 70vh;
+    background-color: #008b79;
+    padding: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:15px ;
+    box-shadow: #000000 1px 1px 5px;
+}
+#GuessOutput{
+    font-size: 62px;
+    font-family: monospace;
+}
+.guessoutCon{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border:4px solid rgb(255, 56, 56);
+    
+}
+.guessoutConTrue{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    height: fit-content;
+   
+    
+}
+#GuessOutputTrue{
+    font-size: 6rem;
+    margin: 0;
+}
+#guessinput{
+    margin:10px;
+    width: 50px;
+    height: 50px;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid red;
+    
+}
+
+#guessBtn{
+    font-size: 32px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    background-color:#008b79 ;
+}
+#guessBtn:hover{
+    border: 2px solid rgb(67, 255, 208);
+    color: rgb(67, 255, 208);
+    background-color:#009783 ;
+    cursor: pointer;
+}
+#WinnerText{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 217, 0);
+    font-size: 32px;
+    margin: 20px;
+}
+#TryAgain{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(255, 102, 0);
+    font-size: 24px;
+    margin: 20px;
+}
