@@ -3,10 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet"
+    <link rel="stylesheet" href="styles/temp.css">
     <title>Temperature Converter</title>
 </head>
 <body>
+    <div class="container">
+        <div class="tempContainer">
+            <h1>Temperature Converter</h1>
+            <form class="tempForm">
+                <input id="inputTemp" type="number" value="0">
+                <br>
+                <label id="error"></label>
+                <br>
+                
+                <div class="typeTemp">
+                    <div class="typeOfCon">
+                        <input type="radio" id="CtoF" name="temp">
+                        <label for="CtoF">Celsius(°C) to Fahrenheit(°F)</label>
+                
+                        <input type="radio" id="FtoC" name="temp">
+                        <label for="FtoC">Fahrenheit(°F) to Celsius(°C)</label>
+                    </div>
+                    
+                    <div class="typeOfCon">
+                        <input type="radio" id="CtoK" name="temp">
+                        <label for="CtoK">Celsius(°C) to Kelvin(K)</label>
+                        
+                        <input type="radio" id="KtoC" name="temp">
+                        <label for="KtoC"> Kelvin(K) to Celsius(°C)</label>
+                    </div>
+                
+                    <div class="typeOfCon">
+                        <input type="radio" id="FtoK" name="temp">
+                        <label for="FtoK">Fahrenheit(°F) to Kelvin(K)</label>
+                        
+                        <input type="radio" id="KtoF" name="temp">
+                        <label for="KtoF">Kelvin(K) to Fahrenheit(°F)</label>
+                    </div>
+                </div>
+                
+
+                <button type="button" id="TempConBtn" onclick="tempconverter()">Convert</button>
+            </form>
+            <h3 id="Output">54</h3>
+            <p id="discription">adda</p>
+        </div>
+    </div>
     
+    <script src="Temp.js"></script>
 </body>
 </html>
