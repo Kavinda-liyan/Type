@@ -78,3 +78,7 @@ function sum(callback,x,y){
 function DisplayRe(result){
     console.log(result);
 }
+
+
+//forEach
+
