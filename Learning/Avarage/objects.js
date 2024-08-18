@@ -32,3 +32,13 @@ console.log(
 console.log(
     `${car2.name} is ${car2.category} car ,it was made in ${car2.made}.\nthis car ${car2.YOM} year of made. this car have ${car2.engine} capacity Engine and ${car2.topspeed}.`
 )
+
+const person={
+    name:"kavinda",
+    age:25,
+    sayHello:function(){
+        console.log(`Hi, I'm ${this.name} . I'm ${this.age} years old`);
+    }
+}
+
+person.sayHello();
